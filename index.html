@@ -45,14 +45,14 @@
 
 
             <div class="hero__left">
-                <p class="header_btn">
+                <p class="hero__availability">
                     Відкритa до пропозицій
                 </p>
                 <h1 class="hero__title">
                     Привіт, я <span class="hero__span"> Лаура <br></span>
                     <span class="hero__title--gradient">Frontend Developer</span>
                 </h1>
-                <p class="hero__about">Пишу про HTML, CSS і те що дізнаюсь у процесі <br>навчання. Ділюсь
+                <p class="hero__about">Пишу про HTML, CSS, JavaScript і те, що дізнаюсь у процесі навчання. Ділюсь
                     реальним досвідом — без
                     зайвої теорії.</p>
                 <div class="hero__btn-wrapper">
@@ -64,7 +64,7 @@
                 <hr class="divider hero__divider" />
                 <div class="hero__details">
                     <div class="hero__detail_two">
-                        <span class="hero__detail-num">3</span>
+                        <span class="hero__detail-num">24</span>
                         <span class="hero__detail-text">Статті</span>
                     </div>
                     <div class="hero__detail">
@@ -81,6 +81,12 @@
 
 
             <div class="hero__termimal" aria-label="Інформація про розробника в терміналі">
+                <div class="hero__terminal-header">
+                    <span class="hero__terminal-dots" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                    </span>
+                    <span>about-me.json</span>
+                </div>
                 <div class="hero__terminal-body">
                     <pre class="terminal">
 <span class="terminal__arrow">→</span> cat about-me.json
@@ -130,8 +136,7 @@
                 <div class="card-second__about">
                     <p class="card-second__about-p">CSS</p>
                     <h2 class="card-second__about-h2">Гармонія кольорів</h2>
-                    <p class="card-second__about-p2">Про важливе вміння бачити виграшні комбінації при оформленні
-                    без макету</p>
+                    <p class="card-second__about-p2">Про важливе вміння бачити виграшні комбінації при оформленні без макету</p>
                     <hr class="card-second__about-hr">
                     <div class="card-second__about-footer">
                         <p class="card-second__about-footer__p1">3 берез. 2025</p>
@@ -146,7 +151,7 @@
                 <div class="card-third__about">
                     <p class="card-third__about-p">Performance</p>
                     <h2 class="card-third__about-h2">Lighthouse</h2>
-                    <p class="card-third__about-p2">Про деталі які справді важливі </p>
+                    <p class="card-third__about-p2">Про деталі які справді важливі</p>
                     <hr class="card-third__about-hr">
                     <div class="card-third__about-footer">
                         <p class="card-third__about-footer__p1">22 лют. 2025</p>
@@ -179,7 +184,7 @@
                         </li>
                         <li class="stack__graph-item">
                             <div class="stack__graph-head">
-                                <h4>JavaScript(ES6+)</h4><span>0%</span>
+                                <h4>JavaScript(ES6+)</h4><span>78%</span>
                             </div>
                             <div class="stack__graph-bar--front" data-progress="js"></div>
                         </li>
@@ -215,7 +220,7 @@
                         </li>
                         <li class="stack__graph-item">
                             <div class="stack__graph-head">
-                                <h4>Вчу: React</h4><span>0%</span>
+                                <h4>Вчу: React</h4><span>30%</span>
                             </div>
                             <div class="stack__graph-bar--tools" data-progress="React"></div>
                         </li>
@@ -241,9 +246,6 @@
         </div>
       </div>
     </section>
-        </div>
-
-    </section>
 
     <section class="contact">
         <div class="container contact__container">
@@ -265,7 +267,7 @@
                         <li>
                             <a class="contact__link">
                                 <span class="contact__icon">💼</span>
-                                <span>@blssxdd</span>
+                                <span>@</span>
                             </a>
                         </li>
                         <li>
@@ -309,12 +311,14 @@
     </section>
 
     <footer class="footer">
-        <p class="footer-p">© 2025 DevBlog · Зроблено з ❤ і VS Code</p>
-        <ul class="footer-list">
-            <li class="footer-list__item">Головна</li>
-            <li class="footer-list__item">Статті</li>
-            <li class="footer-list__item">GitHub</li>
-        </ul>
+        <div class="container footer__container">
+            <p class="footer-p">© 2025 DevBlog · Зроблено з ❤ і VS Code</p>
+            <ul class="footer-list">
+                <li class="footer-list__item">Головна</li>
+                <li class="footer-list__item">Статті</li>
+                <li class="footer-list__item">GitHub</li>
+            </ul>
+        </div>
     </footer>
 
 </body>
